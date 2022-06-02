@@ -1,9 +1,9 @@
 #!/bin/bash
 # include <stdio.h>
 
-int main(void)
+int main()
 {
 	char Mystr[] = "Programming is like building a multilungual puzzle";
-	put(Mystr);
+	puts(Mystr);
 	return(0);
 }
