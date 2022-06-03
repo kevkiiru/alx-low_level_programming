@@ -5,14 +5,14 @@
 /*
  * main - Entry point of the main function
  *
- * Return: 0
+ * Return: Always 0 (success)
  */
 
 int main(void)
 {
 	int n, digit;
 
-	digit == n % 10;
+	digit = 'n' % 10;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
