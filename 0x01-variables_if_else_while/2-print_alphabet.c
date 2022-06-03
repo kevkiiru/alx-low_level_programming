@@ -1,10 +1,10 @@
 # include<stdio.h>
 
-/*
- * main - Entry point
- *
+/**
+ * main - prints the alphabets in lowercase
+ * Description: outputs in lowercase
  * Return: Always 0 (success)
- */
+*/
 
 int main(void)
 {
