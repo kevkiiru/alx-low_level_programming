@@ -33,6 +33,5 @@ int main(void)
 		printf("%d is not correct\n", n);
 	}
 
-	printf("This is the output of the code:\n");
 	return (0);
 }
