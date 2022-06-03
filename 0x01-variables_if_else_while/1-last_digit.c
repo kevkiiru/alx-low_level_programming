@@ -2,8 +2,9 @@
 # include<stdlib.h>
 # include<time.h>
 
-/*
+/**
  * main: Entry point
+ * Description: outputs the last digit
  *
  * Return: Always 0 (success)
  */
