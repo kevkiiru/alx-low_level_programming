@@ -2,12 +2,12 @@
 # include "main.h"
 
 /**
- * abs - entry point
+ * _abs - entry point
  * @n: checking character
  * Return: 0 value of n
 */
 
-int abs(int n)
+int _abs(int n)
 {
 	if (n >= 0)
 	{
