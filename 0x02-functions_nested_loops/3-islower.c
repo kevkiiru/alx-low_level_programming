@@ -4,10 +4,17 @@
 /**
  * _islower - Entry point
  * @c:- the character to be checked
- * Return: Always 0 (success)
+ * Return: 1 if true and 0 if false
 */
 
 int _islower(int c)
 {
-	return (c => 'a' && c <= 'z');
+	if (c > 'a' && c < 'z')
+	{
+		return (1);
+	}
+	else if
+	{
+		return (0);
+	}
 }
