@@ -9,9 +9,13 @@
 
 int _islower(int c)
 {
-	if (c >= 'c')
+	char ch;
+
+	ch = 'c';
+
+	if (ch >= 'a' && ch <= 'z')
 		return (1);
 	else
 		return (0);
-	putchar(c);
+	putchar(ch);
 }
