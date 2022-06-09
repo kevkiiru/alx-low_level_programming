@@ -9,13 +9,13 @@
 
 void print_most_numbers(void)
 {
-	int c;
+	int i;
 
-	for (c = 0; c < 10; c++)
+	for (i = 0; i < 10; c++)
 	{
-		if (c != 2 && c != 4)
+		if (i != 2 && i != 4)
 		{
-			_putchar(c + '0');
+			_putchar(i + '0');
 		}
 		else
 		{
