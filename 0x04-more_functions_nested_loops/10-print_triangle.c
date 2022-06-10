@@ -9,8 +9,6 @@
 
 void print_triangle(int size)
 {
-	int size, a, b;
-
 	if (size <= 10)
 	{
 		_putchar('\n');
