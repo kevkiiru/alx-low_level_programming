@@ -2,7 +2,7 @@
 # include "main.h"
 
 /**
- * int - entry point
+ * main - entry point
  *
  * Return: 0 always
  */
@@ -13,14 +13,26 @@ int main(void)
 
 	for (a = 1; a <= 100; a++)
 	{
-		if (a % 3 == 0)
-			_putchar('Fizz');
-		else if (a % 5 == 0)
-			_putchar('Buzz;);
-		else (a % 3 && a % 5)
-			_putchar("%d", a);
-
-		-putchar('\n');
+		if (a % 3 == 0 && a % 5 != 0)
+		{
+			printf("Fizz");
+		}
+		else if (a % 5 == 0 && a % 3 != 0)
+		{
+			printf("Buzz");
+		}
+		else if (a % 3 == 0 && a % 5 == 0)
+		{
+			printf("FizzBuzz");
+		}
+		else if (a == 1)
+		{
+			printf("%d", a);
+		}
+		else
+		{
+			printf("%d", a);
+		}
 	}
-	return (0);
+	printf('\n');
 }
