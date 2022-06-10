@@ -13,7 +13,7 @@ int main(void)
 	long int b;
 	long int max;
 
-	a = 612852475143;
+	n = 612852475143;
 	max = -1;
 
 	while (a % 2 == 0)
@@ -22,7 +22,7 @@ int main(void)
 		a /= 2;
 	}
 
-	for (b = 3; b <= sqrt(n); b = b + 2)
+	for (b = 3; b <= sqrt(a); b = b + 2)
 	{
 		while (a % b == 0)
 		{
@@ -31,9 +31,10 @@ int main(void)
 		}
 	}
 
-	if (a > 2)
+	if (n > 2)
 		max = a;
 
-	printf("ld\n", max)
-	return (0);
+	printf("%ld\n", max)
+
+		return (0);
 }
