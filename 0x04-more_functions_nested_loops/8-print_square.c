@@ -3,25 +3,27 @@
 
 /**
  * print_square - entry point
- * @size - main integer
+ * @size: main integer
  * Return: 0 always
  */
 
 void print_square(int size)
 {
-	int a, b;
-
 	if (size <= 0)
 	{
 		_putchar('\n');
 	}
-
-	for (a = 0; a < size; a++)
+	else
 	{
-		for (b = 0; b < (size); b++)
+		int a, b;
+
+		for (a = 0; a < size; a++)
 		{
-			_putchar('#');
+			for (b = 0; b < (size); b++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
