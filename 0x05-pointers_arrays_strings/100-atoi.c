@@ -27,7 +27,7 @@ int _atoi(char *s)
 		if (s[a] == '-')
 			++b;
 
-		if (s[a] >= '0' && s[a] <= '0')
+		if (s[a] >= '0' && s[a] <= '9')
 		{
 			digit = s[a] - '0';
 			if (b % 2)
