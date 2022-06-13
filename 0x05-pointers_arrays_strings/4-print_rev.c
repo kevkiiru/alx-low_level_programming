@@ -3,18 +3,27 @@
 
 /**
  * print_rev - main entry point
- * @s: main integer
+ * @s: string to be printed
  * Return: 0 always
  */
 
 void print_rev(char *s)
 {
-	int a;
+	int a, b, hello;
 
-	for (a = 0; a[s] != '\0'; a--)
+	a = 0;
+
+	while (s[a] != '\0')
 	{
-		_putchar(a);
-		a--;
+		a++;
 	}
+
+	hello = a;
+
+	for (b = hello - 1; b >= 0; b--)
+	{
+		_putchar(s[b]);
+	}
+
 	_putchar('\n');
 }
