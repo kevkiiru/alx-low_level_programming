@@ -1,0 +1,27 @@
+# include<stdio.h>
+# include "main.h"
+
+/**
+ * puts2 - main entry point
+ * @str: main integer
+ * Return: 0 always
+ */
+
+void puts2(char *str)
+{
+	int leng, a;
+
+	leng = 0;
+
+	while (str[leng] != '\0')
+	{
+		leng++;
+	}
+
+	for (a = 0; a < leng; a += 2)
+	{
+		_putchar(str[a]);
+	}
+
+	_putchar('\n');
+}
