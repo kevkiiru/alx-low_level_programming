@@ -9,7 +9,11 @@
 
 void _puts(char *str)
 {
-	*str = ("I'm now an ALX Student learning Software Engineering!!\n");
+	int a;
 
-	puts(*str);
+	for (a = 0; str[a] != '\0'; a++)
+	{
+		_putchar(str[a]);
+	}
+	_putchar('\n');
 }
