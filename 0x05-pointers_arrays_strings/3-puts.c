@@ -9,5 +9,5 @@
 
 void _puts(char *str)
 {
-	puts(I'm now an ALX Student learning Software Engineering!!);
+	puts("I'm now an ALX Student learning Software Engineering!!\n");
 }
