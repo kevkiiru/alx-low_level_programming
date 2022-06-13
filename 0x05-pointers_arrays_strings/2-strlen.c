@@ -9,8 +9,13 @@
 
 int _strlen(char *s)
 {
-	char *s[10] = "Program";
+	int a;
 
-	_putchar(*s);
-	return (0);
+	a = 0;
+
+	while (s[a] != '\0')
+	{
+		a++;
+	}
+	return (a);
 }
