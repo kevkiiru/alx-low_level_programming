@@ -9,5 +9,7 @@
 
 void _puts(char *str)
 {
-	puts("I'm now an ALX Student learning Software Engineering!!\n");
+	*str = ("I'm now an ALX Student learning Software Engineering!!\n");
+
+	puts(*str);
 }
