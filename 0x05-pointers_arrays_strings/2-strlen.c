@@ -9,8 +9,8 @@
 
 int _strlen(char *s)
 {
-	char s[10] = "Program";
+	char *s[10] = "Program";
 
-	_putchar(ch);
+	_putchar(*s);
 	return (0);
 }
