@@ -10,9 +10,6 @@
 
 char *_strcat(char *dest, char *src)
 {
-	dest = "Hello";
-	src = "World";
-
 	int a, b;
 
 	a = 0;
