@@ -13,15 +13,22 @@ char *_strcat(char *dest, char *src)
 	dest = "Hello";
 	src = "World";
 
-	int leng;
-	int a;
+	int a, b;
 
-	for (a = 0; src[a] != '\0'; ++a; ++leng)
+	a = 0;
+	b = 0;
+
+	while (dest[a] != '\0')
+		a++;
+
+	while (src[b] != '\0')
 	{
-		dest[leng] = src[a];
+		deset[a] = src[b];
+		b++;
+		a++;
 	}
 
-	dest[leng] = '\0';
+	dest[a] = '\0';
 
-	_putchar(dest);
+	return (dest);
 }
