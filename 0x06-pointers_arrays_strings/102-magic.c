@@ -1,10 +1,5 @@
 # include<stdio.h>
-
-/**
- * main - entry point
- * Return: 0 always
- */
-
+/** main - entry point */
 int main(void)
 {
 	int n;
