@@ -10,8 +10,6 @@
 void print_number(int n)
 {
 	unsigned int n1;
-	
-	n = 0;
 
 	if (n < 0)
 	{
