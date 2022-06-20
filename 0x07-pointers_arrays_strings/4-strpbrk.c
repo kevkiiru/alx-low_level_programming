@@ -8,7 +8,7 @@
  * Return: a pointer to the byte s
  */
 
-char *_strpbrk(char *s, char accept)
+char *_strpbrk(char *s, char *accept)
 {
 	int a, b;
 
