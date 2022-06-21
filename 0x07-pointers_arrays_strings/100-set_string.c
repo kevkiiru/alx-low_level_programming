@@ -10,11 +10,5 @@
 
 void set_string(char **s, char *to)
 {
-	char a;
-	int *k;
-
-	a = &k;
-	*k = 10;
-
-	_putchar("Value of char is: ", &k);
+	*s = to;
 }
