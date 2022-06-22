@@ -21,5 +21,6 @@ void _print_rev_recursion(char *s)
 	ch = *(s + front);
 	*(s + front) = *(s + back);
 	*(s + back) = ch;
-	_print_rev_recursion(s, ++front, --back);
+
+	_putchar(s, ++front, --back);
 }
