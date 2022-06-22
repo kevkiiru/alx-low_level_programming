@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 
+int real_sqrt_recursion(int n, int a);
+
 /**
  * _sqrt_recursion - function that returns the natural square root of
  * a number
@@ -8,8 +10,6 @@
  *
  * Return: 0 always
  */
-
-int real_sqrt_recursion(int n, int a);
 
 int _sqrt_recursion(int n)
 {
@@ -22,7 +22,8 @@ int _sqrt_recursion(int n)
 
 /**
  * real_sqrt_recursion - recursing to find the natural square root
- * @a; integer one
+ * @a: integer one
+ * @n: integer two
  * Return: the real square root
  */
 
