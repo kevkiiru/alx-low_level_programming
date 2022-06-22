@@ -10,7 +10,9 @@
 
 void _puts_recursion(char *s)
 {
-	s = "This is the string";
+	char ch;
 
-	_putchar(s);
+	ch = "This is the string";
+
+	_putchar(ch);
 }
