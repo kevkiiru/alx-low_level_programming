@@ -10,7 +10,7 @@
 
 int factorial(int n)
 {
-	factorial[0] = 1;
+	factorial(0) = 1;
 
 	if (n < 0)
 	{
