@@ -10,7 +10,7 @@
 
 void _print_rev_recursion(char *s)
 {
-	char str[];
+	char str[100];
 	int a, b, leng;
 
 	b = leng - a;
@@ -22,5 +22,5 @@ void _print_rev_recursion(char *s)
 	if (a == leng / 2)
 		return;
 
-	_print_rev_recursion(str, a + 1, leng);
+	_putchar(str, a + 1, leng);
 }
