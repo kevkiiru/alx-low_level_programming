@@ -22,7 +22,7 @@ int is_prime_number(int n)
 /**
  * real_prime_number - finds the real prime number
  * @a: main integer
- * @i: second integer
+ * @n: second integer
  *
  * Return: 1 if prime, 0 if not prime
  */
