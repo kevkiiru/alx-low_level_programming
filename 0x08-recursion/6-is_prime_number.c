@@ -16,5 +16,7 @@ int is_prime_number(int n)
 		return (1);
 	}
 	else
+	{
 		return (0);
+		is_prime_number(n, n - 1);
 }
