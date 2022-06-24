@@ -8,7 +8,7 @@
  * Return: 0 always
  */
 
-int main(int argc, char **argv __attribute__((unused)))
+int main(int argc, char *argv[] __attribute__((unused)))
 {
 	printf("no of args is = %d\n", argc - 1);
 	return (0);
