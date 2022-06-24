@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * main - the main function
- * @argc: the argument count
- * @argv: the argument vector
- * Return: print a number passed into it
+ * main - function entry point
+ * @argc: argument count
+ * @argv: argument vector
+ * Return: 0 always
  */
 
 int main(int argc __attribute__((unused)), char **argv)
