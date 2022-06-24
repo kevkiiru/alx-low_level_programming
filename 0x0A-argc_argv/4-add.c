@@ -41,7 +41,6 @@ int _atoi(char *s)
 		}
 		a++;
 	}
-	
 	if (d == 0)
 		return (0);
 
@@ -57,19 +56,31 @@ int _atoi(char *s)
 
 int main(int argc, char **argv)
 {
-	int total, num1, num2;
+	int a, b, c, sum, num;
 
-	if (argc < '1' && argc > '1')
+	sum = 0;
+
+	for (a = 1; a < argc; a++)
 	{
-		printf("Error\n");
-		return (1);
+		for (b = 0; argv[a][b] != '\0'; b++)
+		{
+			if (argv[a][b] > '9' || argv[a][b] < '0')
+			{
+				puts("Error\n");
+				return (1);
+			}
+		}
 	}
 
-	num1 = _atoi(argv[1]);
-	num2 = _atoi(argv[2]);
-	total = num1 + num2;
+	for (c = 1; c < argc; c++)
+	{
+		num = _atoi(argv[c]);
+		if (num >= 0)
+		{
+			sum += num;
+		}
+	}
 
-	printf("%d\n", total);
-
+	printf("%d\n", sum);
 	return (0);
 }
