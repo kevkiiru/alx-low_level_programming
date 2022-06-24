@@ -66,7 +66,7 @@ int main(int argc, char **argv)
 		{
 			if (argv[a][b] > '9' || argv[a][b] < '0')
 			{
-				puts("Error");
+				puts("Error\n");
 				return (1);
 			}
 		}
