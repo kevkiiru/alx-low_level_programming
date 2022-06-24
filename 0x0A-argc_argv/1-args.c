@@ -8,13 +8,13 @@
  * Return: print a number passed into it
  */
 
-int main(int argc, char *argv[])
+int main(argc, char *argv[])
 {
 	int a;
 
 	for (a = 0; a < argc; a++)
 	{
-		printf("The number of arguments is: %d\n", &a);
+		printf("The number of arguments is: %d\n", argv[]);
 	}
 	return (0);
 }
