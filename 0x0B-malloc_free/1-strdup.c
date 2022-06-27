@@ -11,7 +11,7 @@
 
 char *_strdup(char *str)
 {
-	char str2;
+	char sec;
 	unsigned int a, leng;
 
 	a = 0;
@@ -23,13 +23,13 @@ char *_strdup(char *str)
 	while (str[leng])
 		leng++;
 
-	str2 = malloc(sizeof(char) * (leng + 1));
+	sec = malloc(sizeof(char) * (leng + 1));
 
-	if (str2 == NULL)
+	if (sec == NULL)
 		return (NULL);
 
-	while ((str2[a] = str[a]) != '\0')
+	while ((sec[a] = str[a]) != '\0')
 		a++;
 
-	return (str2);
+	return (sec);
 }
