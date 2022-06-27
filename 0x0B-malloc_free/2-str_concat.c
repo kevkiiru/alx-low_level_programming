@@ -11,7 +11,7 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	char *str[], *str2[];
+	char *str, *str2;
 	int a, b;
 
 	a = 0;
@@ -19,7 +19,7 @@ char *str_concat(char *s1, char *s2)
 
 	while (s1[a] != '\0')
 	{
-		++str1;
+		str1++;
 		a++;
 	}
 
@@ -34,5 +34,5 @@ char *str_concat(char *s1, char *s2)
 	if (s1[a] != s2[b])
 		return (NULL);
 
-	return (str1, str2);
+	return (str1);
 }
