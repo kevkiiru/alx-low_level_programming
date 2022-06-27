@@ -19,14 +19,14 @@ char *str_concat(char *s1, char *s2)
 
 	while (s1[a] != '\0')
 	{
-		str1++;
+		str++;
 		a++;
 	}
 
 	while (s2[b] != '\0')
 	{
-		*str1 = *str2;
-		str1++;
+		*str = *str2;
+		str++;
 		str2++;
 		b++;
 	}
@@ -34,5 +34,5 @@ char *str_concat(char *s1, char *s2)
 	if (s1[a] != s2[b])
 		return (NULL);
 
-	return (str1);
+	return (str);
 }
