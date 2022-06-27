@@ -26,8 +26,6 @@ char *str_concat(char *s1, char *s2)
 	while (s2[b] != '\0')
 	{
 		*str = *str2;
-		str++;
-		str2++;
 		b++;
 	}
 
