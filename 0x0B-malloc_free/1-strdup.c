@@ -11,7 +11,7 @@
 
 char *_strdup(char *str)
 {
-	char sec;
+	char *sec;
 	unsigned int a, leng;
 
 	a = 0;
