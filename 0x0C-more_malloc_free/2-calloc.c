@@ -19,7 +19,7 @@ char *fill_mem(char *a, char b, unsigned int n)
 		a[c] = b;
 	}
 
-	return (s);
+	return (a);
 }
 
 /**
