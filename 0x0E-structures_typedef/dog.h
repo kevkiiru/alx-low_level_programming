@@ -20,8 +20,6 @@ struct dog
  * struct dog - the typedef for the struct dog
  */
 
-#define struct dog dog_t
-
 typedef struct dog dog_t;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
