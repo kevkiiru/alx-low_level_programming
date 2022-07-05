@@ -1,13 +1,15 @@
 #ifndef __DOG_H__
 #define __DOG_H__
 
-#define struct dog
+#define struct Dog
 
-struct dog 
+/**
+ * struct Dog - main structure
+ *
+ * Return: 0 always
+ */
+
+struct Dog(char *name, float age, char *owner)
 {
-	char *name;
-	float age;
-	char *owner;
-};
-
-#endif
+	return (0);
+}
