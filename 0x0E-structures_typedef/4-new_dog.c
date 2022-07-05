@@ -5,6 +5,8 @@
 /**
  * _strlen - returns the strength of a string
  * @s: string to evaluate
+ * Description: short description
+ * Return: 0 always
  */
 
 int _strlen(char *s)
