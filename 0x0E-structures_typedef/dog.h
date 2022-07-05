@@ -1,7 +1,9 @@
 #ifndef __DOG_H__
 #define __DOG_H__
 
-#define struct dog 
+#define struct dog
+
+struct dog 
 {
 	char *name;
 	float age;
