@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include "function_pointers.h"
 
 /**
@@ -36,7 +37,7 @@ int main(int argc, char *argv[])
 			printf("%02hhx\n", arr[a]);
 			break;
 		}
-		printf("%02hhx ", arr[a]);
+		printf("%02hhx \n", arr[a]);
 	}
 	return (0);
 }
