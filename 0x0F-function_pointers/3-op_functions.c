@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "function_pointers.h"
+#include "calc.h"
 
 /**
  * op_add - function that adds integers
