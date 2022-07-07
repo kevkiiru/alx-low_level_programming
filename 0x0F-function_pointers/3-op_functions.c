@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "calc.h"
 
 /**
  * op_add - function that adds integers
