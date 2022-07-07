@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "3-calc.h"
 
 /**
  * get_op_func - function that performs operation asked by user
@@ -22,12 +23,12 @@ int (*get_op_func(char *s))(int, int)
 
 	a = 0;
 
-	while (ops[a].op)
+	while (a < 10)
 	{
-		if (strcmp(ops[a].op, s) == 0)
-			return (ops[a].f);
+		if (s[0] == ops->op[a])
+			break;
 		a++;
 	}
 
-	return (NULL);
+	return (ops[a / 2].f);
 }
