@@ -46,10 +46,11 @@ void print_all(const char * const format, ...)
 					a++;
 					continue;
 			}
-			sep = ", ";
+			sep = ",  ";
 			a++;
 		}
 	}
+
 	printf("\n");
 	va_end(list);
 }
