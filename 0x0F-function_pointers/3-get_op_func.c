@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "calc.h"
 
 /**
  * get_op_func - function that performs operation asked by user
