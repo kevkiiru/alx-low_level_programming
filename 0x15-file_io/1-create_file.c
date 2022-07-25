@@ -11,24 +11,25 @@
 
 int create_file(const char *filename, char *text_content)
 {
-	int o, w, leng = 0;
+	int a = 0, leng;
 
 	if (filename == NULL)
 		return (-1);
 
-	if (text_content != NULL)
+	if (text_content == NULL)
+		text_content = " ";
+
+	while (text_content[a] != '\0')
 	{
-		for (leng = 0; text_content[leng];)
-			leng++;
+		a++;
 	}
 
-	o = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
-	w = write(o, text_content, leng);
+	file = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
 
-	if (o == -1 || w == -1)
+	if (file == -1)
 		return (-1);
 
-	close(o);
+	write(file, text_content, a);
 
 	return (1);
 }
