@@ -1,14 +1,13 @@
-# include <stdio.h>
-# include "main.h"
+# include <unistd.h>
 
 /**
- * main - Entry point
+ * _putchar - Entry point
  * @c: main character
  * Description: prints out _putchar
  * Return: Always 0 (success)
 */
 
-int main(char c)
+int _putchar(char c)
 {
 	return (write(1, &c, 1));
 }
