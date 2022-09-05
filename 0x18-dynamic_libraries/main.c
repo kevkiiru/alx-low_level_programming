@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * main - check the code
  *
- * Return: 0 always
+ * Return: Always EXIT_SUCCESS
  */
 
 int main(void)
