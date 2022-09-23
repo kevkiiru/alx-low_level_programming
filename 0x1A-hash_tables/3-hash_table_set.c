@@ -6,6 +6,7 @@
  * @key: new key to add in the node
  * @value: value to add in the node
  */
+
 void replace_value(hash_node_t **ht, const char *key, const char *value)
 {
 	hash_node_t *temp = *ht;
@@ -24,6 +25,7 @@ void replace_value(hash_node_t **ht, const char *key, const char *value)
  *
  * Return: 1 if the key is found, 0 otherwise
  */
+
 int check_key(hash_node_t *ht, const char *key)
 {
 	while (ht)
@@ -44,6 +46,7 @@ int check_key(hash_node_t *ht, const char *key)
  *
  * Return: the address of the new element, or NULL if it fails
  */
+
 hash_node_t *add_node(hash_node_t **head, const char *key, const char *value)
 {
 	hash_node_t *new;
@@ -76,6 +79,7 @@ hash_node_t *add_node(hash_node_t **head, const char *key, const char *value)
  *
  * Return: 1 on success, 0 otherwise
  */
+
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	unsigned long int index;
